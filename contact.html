@@ -5,13 +5,15 @@
   <style>
     body {
       font-family: Arial, sans-serif;
-      background: #f2f2f2;
+      background: rgb(255, 255, 255);
+      background-image: url('backgroundgif.gif'); /* Add your background image file path here */
+      background-size: cover;
     }
     .container {
       max-width: 600px;
       margin: 0 auto;
       padding: 20px;
-      background: #fff;
+      background: rgba(255, 255, 255, 0.9);
       border-radius: 5px;
       box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     }
@@ -35,6 +37,7 @@
       border-radius: 5px;
     }
     textarea {
+      width: 100%; /* Corrected from 'height' to 'width' */
       height: 150px;
     }
     input[type="submit"] {
